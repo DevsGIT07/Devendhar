@@ -1,0 +1,18 @@
+
+#head{
+    text-align: center;
+    color: red;
+}
+
+*{
+    text-align: center;
+}
+
+.h2{
+    text-align: center;
+    text-decoration: underline;
+}
+p1,p2{
+    color: aquamarine;
+    font-style: italic;
+}
