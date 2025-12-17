@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> forms</h1>
+    <form action=" " target="_blank" autocomplete="on" novalidate>
+        <label for="fname"> first name</label>
+        <input type="text" id="fname"> <br>
+        <label for="mobile"> phone number </label>
+        <input type="password" id="mobile"> <br>
+        <label for="male"> male </label> 
+        <input type="checkbox" id="male" value="male" name="Gender" > <br>
+        <label for="female"> female </label> 
+        <input type="checkbox" id="female" value="female" name="Gender"> <br>
+        <input type="button" value="login"> <br>
+    </form>
+     <h2> what is your favourite subject</h2>
+    <form>
+        <input type="radio" id="html"  name="fav-language" value="HTML">
+        <label for="html"> HTML</label><br>
+        <input type="radio" id="css"  name="fav-language" value="CSS">
+        <label for="css"> CSS</label><br>
+        <input type="radio" id="javascript" name="fav-language" value="Javascript">
+        <label for="javascript"> Javascript</label><br>
+    </form>
+    <form>
+        <h3> favourite vechiles </h3>
+        <input type="checkbox" id="vechile" name="fav_vechile"> 
+        <label for="vechile"> bike</label> <br>
+        <input type="checkbox" id="vechile" name="fav_vechile">
+        <label for="vechile"> car</label><br>
+        <input type="checkbox" id="vechile" name="fav_vechile">
+        <label for="vechile"> bus </label><br>
+        <input type="submit" value="submit">
+    </form>
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="fname">last name:</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="cars"> choose a car</label>
+        <select id="cars" name="cars"> 
+            <optgroup label="indian cars">
+            <option value="cars"> tata</option>
+            <option value="cars"> suzuki</option>
+            </optgroup>
+            <optgroup label="forign cars">
+            <option value="cars"> ford</option>
+            <option value="cars"> toyota</option>
+             </optgroup>
+        </select> <br>
+        <label for="cars"> choose a car</label>
+        <input list="cars" name="cars" id="cars">
+        <datalist id="cars"> 
+            <option value="tata"> 
+            <option value="suzuki"> 
+            <option value="ford"> 
+            <option value="toyota"> 
+        </datalist>
+    </form>
+</body>
+</html>

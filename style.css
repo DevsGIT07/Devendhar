@@ -1,31 +1,17 @@
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  font-style: italic;
-  font-size: 50px;
-}
-.background{
-   background-image: url("https://traveltwosome.com/wp-content/uploads/2024/02/Isha-new-1-1.png");
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
-h1 {
-  color: whitesmoke;
-  
-}
-
-
-.p {
-  color : white;
-  font-style: italic;
+h1{
   text-align: center;
 }
-
+p{
+  text-align: center;
+  font-style: italic;
+}
 button{
-  margin: 20px;
-  font-size: medium;  
-  font-style: roboto ;
-  border-radius: 10px;
-  background-color: yellow;
+  
+  align-items: center;
+}
+body{
+  background-color: rgb(115, 255, 0);
+}
+#b1{
+  align-items: center;
 }
