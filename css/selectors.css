@@ -10,9 +10,19 @@
 
 .h2{
     text-align: center;
+    color: blue;
     text-decoration: underline;
 }
 p1,p2{
-    color: aquamarine;
+    color: brown;
     font-style: italic;
+}
+[class]{
+    color:blue;
+}
+[class="33"]{
+    background-color: yellow;
+}
+body{
+    background-color: aquamarine;
 }

@@ -1,0 +1,30 @@
+.heading{
+    color: red;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px black;
+    letter-spacing: 1px;    
+}
+
+.paragraph{
+    color: rgb(255, 127, 249);
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    text-decoration: underline;
+    direction: rtl;
+}
+.sides{
+    color: rgb(26, 255, 0);
+    text-align:left;
+    line-height: 35px;
+    text-indent: 15px;
+    text-decoration: underline dotted;
+    word-spacing: 1.5px ;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 3px;
+}
+.background{
+    background-color: aqua;
+}

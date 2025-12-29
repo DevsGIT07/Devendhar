@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content {
+            border: 1px, solid;
+            overflow: scroll;
+            padding: 10px;
+            height: 39px;
+            width: 150px;
+        }
+
+        .content2 {
+            border: 1px, solid;
+            overflow: auto;
+            padding: 10px;
+            height: 39px;
+            width: 400px;
+        }
+        .content3 {
+            border: 1px, solid;
+            overflow: hidden;
+            padding: 10px;
+            height: 39px;
+            width: 400px;
+        }
+        .content4 {
+            border: 1px, solid;
+            overflow: visible;
+            padding: 10px;
+            height: 39px;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> overflow property </h1>
+
+
+    <div class="content">
+        The overflow property specifies what should happen if content overflows an element's box.
+
+        This property specifies whether to clip content or to add scrollbars when an element's content is too big to
+        fit in a specified area.
+
+        Note: The overflow property only works for block elements with a specified height.
+    </div>
+
+
+    <h2> auto</h2>
+    <div class="content2">
+        Value Description
+        visible : The overflow is not clipped. It renders outside the element's box.<br>
+        hidden : The overflow is clipped, and the rest of the content will be invisible. Content can be scrolled
+        programmatically. <br>
+        clip : The overflow is clipped, and the rest of the content will be invisible. Forbids scrolling, including
+        programmatic scrolling.<br>
+        scroll : The overflow is clipped, but a scroll-bar is added to see the rest of the content<br>
+        auto : If overflow is clipped, a scroll-bar should be added to see the rest of the content <br>
+        initial Sets this property to its default value. Read about initial
+    </div>
+
+        <h3> hidden</h3>
+
+
+    <div class="content3">
+        Value Description
+        visible : The overflow is not clipped. It renders outside the element's box.<br>
+        hidden : The overflow is clipped, and the rest of the content will be invisible. Content can be scrolled
+        programmatically. <br>
+        clip : The overflow is clipped, and the rest of the content will be invisible. Forbids scrolling, including
+        programmatic scrolling.<br>
+        scroll : The overflow is clipped, but a scroll-bar is added to see the rest of the content<br>
+        auto : If overflow is clipped, a scroll-bar should be added to see the rest of the content <br>
+        initial Sets this property to its default value. Read about initial
+    </div>
+
+        <h4> visible</h4>
+
+    <div class="content4">
+        Value Description
+        visible : The overflow is not clipped. It renders outside the element's box.<br>
+        hidden : The overflow is clipped, and the rest of the content will be invisible. Content can be scrolled
+        programmatically. <br>
+        clip : The overflow is clipped, and the rest of the content will be invisible. Forbids scrolling, including
+        programmatic scrolling.<br>
+        scroll : The overflow is clipped, but a scroll-bar is added to see the rest of the content<br>
+        auto : If overflow is clipped, a scroll-bar should be added to see the rest of the content <br>
+        initial Sets this property to its default value. Read about initial
+    </div>
+
+
+</body>
+
+</html>
