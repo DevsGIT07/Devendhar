@@ -1,0 +1,51 @@
+.heading{
+    color: red;
+    text-align: center;
+    font-style: oblique;
+    letter-spacing: 1px; 
+    font-family:'Times New Roman', Times, serif;   
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.paragraph{
+    color: rgb(255, 127, 249);
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-family:monospace;
+}
+.styles{
+    text-align:left;
+    line-height: 35px;
+    text-indent: 15px;
+    word-spacing: 1.5px ;
+    font-size: 15px;
+    font-variant: small-caps;
+
+   
+}
+.background{
+    background-color: rgb(136, 255, 0);
+    text-align: center;
+}
+.button{
+     font-size: large;
+     font-style: italic;
+     border-radius: 10px;
+     background-color: rgb(255, 0, 179);
+     padding: 10px;
+}
+
+a:visited{
+    color: black ;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: green;
+}
