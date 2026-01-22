@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-flow: row wrap-reverse;
+            height: 350px;
+            align-items: center;
+            background-color: bisque;
+            width: 600px;
+        }
+
+        .item {
+            height: 50px;
+            margin: 10px;
+            padding: 25px;
+            text-align: center;
+            background-color: azure;
+            flex: 1;
+            padding-top: 35px;
+            color: rgb(181, 20, 20);
+        }
+
+        .container2 {
+            display: flex;
+            justify-content: space-around;
+            background-color: aqua;
+            height: 100px;
+            align-items: center;
+        }
+
+        .item1 {
+
+            height: 50px;
+            width: 100px;
+            margin: 10px;
+            background-color: black;
+            color: red;
+            text-align: center;
+            align-content: center;
+        }
+
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            height: 200px;
+            background-color: blueviolet;
+            place-content: center;
+           
+        }
+        .grid1{
+            height: 50px;
+            width: 100px;
+            margin: 10px;
+            background-color: aquamarine;
+            text-align: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item"> item 1</div>
+        <div class="item"> item 2</div>
+        <div class="item"> item 3</div>
+        <div class="item"> item 4</div>
+        <div class="item"> item 5</div>
+        <div class="item"> item 6</div>
+        <div class="item"> item 7</div>
+        <div class="item"> item 8</div>
+        <div class="item"> item 9</div>
+        <div class="item"> item 10</div>
+        <div class="item"> item 11</div>
+        <div class="item"> item 12</div>
+    </div>
+    <br>
+    <div class="container2">
+        <div class="item1" style="order: 3; flex-shrink: 3; "> item 1</div>
+        <div class="item1" style="order: 1; flex-grow: 2    ;"> item 2</div>
+        <div class="item1" style="order: 2; flex-grow: 3 ;"> item 3</div>
+    </div>
+
+    <br>
+ <div class="grid-container"> 
+         <div class="grid1"> item 1 </div>
+         <div class="grid1"> item 2 </div>
+         <div class="grid1"> item 3 </div>
+         <div class="grid1"> item 4 </div>
+         <div class="grid1"> item 5</div>
+ </div>
+
+
+
+</body>
+
+</html>
