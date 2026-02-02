@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 400px 150px 150px;
+            background-color: blue;
+            padding: 10px;
+            gap: 15px;
+            height: 500px;
+            place-content: center;
+        }
+
+        .container div {
+            border: 1px solid gray;
+            background-color: antiquewhite;
+            align-content: center;
+            text-align: center;
+            padding: 10px;
+            height: 200px
+        }
+
+        .container2 {
+            display: grid;
+            grid-template-areas: "myheader myheader myheader myheader myheader"
+                "menu content content content right"
+                "menu footer footer footer footer";
+            background-color: rgb(13, 13, 23);
+            padding: 10px;
+            place-content: center;
+            height: 200px;
+        }
+
+        .container2 div {
+            border: 1px solid gray;
+            background-color: antiquewhite;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .item1 {
+            grid-area: myheader;
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: content;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>item 1</div>
+        <div>item 2</div>
+        <div>item 3</div>
+        <div>item 4</div>
+        <div>item 5</div>
+    </div>
+    <br>
+    <div class="container2">
+        <div class="item1"> Header</div>
+        <div class="item2"> menu</div>
+        <div class="item3"> content</div>
+        <div class="item4"> right</div>
+        <div class="item5"> footer</div>
+    </div>
+
+
+    
+    </div>
+
+</body>
+
+</html>
